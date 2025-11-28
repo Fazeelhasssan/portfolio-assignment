@@ -1,1 +1,1 @@
-function addTask(){let i=document.getElementById('taskInput');if(i.value==='')return alert('Enter task');let li=document.createElement('li');li.textContent=i.value;document.getElementById('taskList').appendChild(li);i.value='';}
+function press(n){document.getElementById('display').value+=n;}function calculate(){let e=document.getElementById('display').value;document.getElementById('display').value=eval(e);}function clearDisplay(){document.getElementById('display').value='';}
